@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: gainsboro;
+    text-align: center;
+    padding: 2%;
+}
+
+.wrapper{
+    background-color: rgb(168, 168, 168);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container{
+    border: 2px solid black;
+    width: 50%;
+
+}
+
+.container img{
+    width: 50%;
+}
+
+.post-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-info h3{
+    color: gray;
+}
